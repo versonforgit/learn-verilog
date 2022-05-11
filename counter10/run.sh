@@ -4,4 +4,5 @@ echo "编译完成"
 
 echo "生成波形图"
 vvp -n wave -lxt2
+cp wave.vcd wave.lxt
 echo "生成波形图完成"

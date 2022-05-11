@@ -16,11 +16,11 @@ module counter10 (
                         cnt_temp        <=4'b000;
                 end
                 else begin                      //counter plus 1
-                        cnt_temp        <= cnt_temp + 1'b1 ; 
+                        cnt_temp        <= cnt_temp + 1'b1 ;
                 end
         end
 
         assign  cout = (cnt_temp==4'd9) ;       //cycle times
-        assign  
+        assign  cnt  = cnt_temp;
     
 endmodule

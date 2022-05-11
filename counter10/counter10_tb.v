@@ -20,6 +20,7 @@ begin
 	rstn = 1'b0;
 	#11 ;
 	rstn = 1'b1;
+	
 end
 
 always
