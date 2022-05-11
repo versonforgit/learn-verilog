@@ -6,3 +6,6 @@ echo "生成波形图"
 vvp -n wave -lxt2
 cp wave.vcd wave.lxt
 echo "生成波形图完成"
+
+echo "打开波形图"
+gtkwave wave.vcd
