@@ -1,0 +1,65 @@
+$date
+	Tue May 17 17:03:57 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module test $end
+$var wire 1 ! PAD $end
+$var wire 1 " DOUT $end
+$var reg 1 # DIN $end
+$var reg 1 $ OEN $end
+$var reg 1 % PAD_REG $end
+$var reg 2 & PULL [1:0] $end
+$scope module u_pad $end
+$var wire 1 # DIN $end
+$var wire 1 $ OEN $end
+$var wire 1 ! PAD $end
+$var wire 2 ' PULL [1:0] $end
+$var reg 1 " DOUT $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10 '
+b10 &
+z%
+1$
+x#
+0"
+0!
+$end
+#20
+1"
+1!
+b11 &
+b11 '
+#40
+z"
+z!
+b0 &
+b0 '
+#60
+0"
+0!
+0%
+#80
+1"
+1!
+1%
+#110
+z!
+z"
+z#
+0$
+#125
+0!
+0#
+#140
+1!
+1#
+#1000
