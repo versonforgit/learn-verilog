@@ -21,6 +21,6 @@ module counter10 (
         end
 
         assign  cout = (cnt_temp==4'd9) ;       //cycle times
-        assign  cnt  = cnt_temp;
+        assign  cnt  = cnt_tem;
     
 endmodule
