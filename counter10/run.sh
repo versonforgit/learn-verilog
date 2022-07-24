@@ -10,4 +10,4 @@ cp  wave.vcd wave.lxt
 echo "生成波形图完成"
 
 echo "打开波形图"
-open -a gtkwave wave.vcd
+gtkwave wave.vcd
